@@ -41,7 +41,6 @@ public class Parkinglot {
     }
 
 
-
     public void close_slot(Vehicle obj){
         System.out.println("The total price is "+ obj.calculate_price());
         obj.free_the_slot();
